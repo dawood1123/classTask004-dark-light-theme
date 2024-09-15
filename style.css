@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn{ 
+    color: white;
+    background-color: black;
+    border: none;
+    height: 50px;
+    width: 130px;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 6px;
+}
+#btn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
