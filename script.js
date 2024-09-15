@@ -1,5 +1,5 @@
 
-    const toggleButton = document.getElementById('btn');
+const toggleButton = document.getElementById('btn');
 const body = document.body;
 
 function changetheme() {
@@ -19,3 +19,5 @@ function changetheme() {
         document.getElementById("btn").style.color='Black'
 }
 };
+
+changetheme();
